@@ -33,7 +33,7 @@ Examples:
 
 function bmi(height, weight) {
     // Your code here
-    return null;
+    return "normal";
 }
 
 
@@ -57,7 +57,7 @@ function countNormal(arr) {
 /*
   Problem 3 - How many of each type?
 
-Here's the last question, which is the more complicated version of the previous. Instead of only returning the number of normal people, return an object returning the count for each body type. The keys should be "underweight, normal, overweight, obese".
+This builds upon the previous question. Instead of only returning the number of normal people, return an object returning the count for each body type. The keys should be "underweight, normal, overweight, obese".
 
 If there are no people of a category, set the value to 0.
 
@@ -70,4 +70,14 @@ Examples:
 
 function countTypes(obj) {
     return {};
+}
+
+
+
+// DO NOT TOUCH CODE BELOW OR YOU WILL FAIL (i think)
+
+module.exports = {
+    bmi,
+    countNormal,
+    countTypes
 }
