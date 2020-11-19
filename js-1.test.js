@@ -39,12 +39,12 @@ test('CountTypes countTypes([20,24,30,31.1,18]', () => {
     expect(countTypes([20,24,30,31.1,18])).toEqual({
         underweight: 1,
         normal: 2,
-        overweight: 1,
-        obese: 1
+        overweight: 0,
+        obese: 2
     })
 });
-test('CountTypes countTypes([20,24,30,31.1,18]', () => {
-    expect(countTypes([20,24])).toEqual({
+test('CountTypes countTypes([20, 24]', () => {
+    expect(countTypes([20, 24])).toEqual({
         underweight: 0,
         normal: 2,
         overweight: 0,
